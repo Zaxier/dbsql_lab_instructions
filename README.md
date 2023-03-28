@@ -19,7 +19,7 @@
 - Use Databricks SQL to analyze two datasets
     1. NYC Taxi Trip Analysis - from *NYC Taxi and Limousine Commission*
     2. Retail Revenue and Supply Chain data - from *TPC-H benchmark*
-- In doing that we will get comfortable navigating the Databricks SQL UI and the capabilities of the platform.
+- In doing so we will get comfortable navigating the Databricks SQL UI and become familiar with the capabilities of the platform.
 
 ## Dataset description
 
@@ -110,8 +110,30 @@ GROUP BY
     - The results table and the visualisation will be visible in the bottom panel. Choose the visualisation and edit it. Within the visualisation editor, change the Colors. Choose 'Max color' to be a high contrast red. This makes the visualisation easier to read.
 6. Save the visualisation then navigate back to the dashboard and refresh the browser window. The visualisation should now be updated with the higher contrast red for the USA, UK, Saudi Arabia etc who have the highest revenue.
 
-### Exercise 3: SQL Analytics
-In this exercise we will write SQL to analyse the TPC-H dataset, and then add visualisations to the existing dashboard.
+### Exercise 3: Ingest a flat file
+1. Create a basic csv file in a text editor such as the following:
+
+```
+id,name,age, dob
+1, John,30,1990-01-30
+2, Mary,25,1995-02-15
+3, Peter,40,1980-03-02
+4, Jane,35,1985-01-01
+5, Sarah,50,1970-01-09
+```
+2. Click the "+" sign in the top left of the workspace browser and choose "File Upload". Drop your csv file into the window.
+3. Use the "Vertical Table Preview" option to inspect schema and data.
+3. Check the column types are correct
+4. Exclude the id column from the table
+5. Create the table in the `default` schema or another schema of your choice.
+6. Get to know the data explorer better
+    - Explore the tabs within the data explorer and look at the Details of the table and the History.
+    - Update the table description, change it from the default "Created by the file upload UI" to something more meaningful.
+    - Edit the owner of the table, make it the admin user.
+    - Explore the history of the table 
+
+### Exercise 4: More SQL Analytics
+In this exercise we will write SQL to analyse the TPC-H dataset, and then add visualisations to the existing dashboard. Because there are so many possibile ways to query the TPC-H dataset, we will use chatGPT to help us generate some SQL queries.
 
 1. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset.
 2. Ask chatGPT to provide the SQL to answer these questions for you mentioning the TPC-H dataset in your prompt.
@@ -125,18 +147,18 @@ In this exercise we will write SQL to analyse the TPC-H dataset, and then add vi
     - When you're done, click "Done editing" and then click "Share" and share the dashboard with all users of the workspace.
 8. Volunteers to talk through their visuals!
 
-### Exercise 4: Infrastructure Monitoring
+### Exercise 5: Infrastructure Monitoring
 1. Within DBSQL, click on "SQL Warehouses" on the LHS panel.
 2. Choose the running serverless warehouse.
 3. Click on monitoring and inspect the metrics.
 
-### Exercise 5: Spam the chatroom with
+### Exercise 6: Spam the chatroom with
 1. Rating out of 10 for the session
 2. What did you like?
 3. What could be improved?
 4. Memes and general spamming encouraged.
 
-### Extras
+### Exercise 7: Extras
 5. Check out the news about Dolly, Databricks' open-source large language model.
     - https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html
     - https://www.bing.com/news/search?q=Dolly+Databricks&qpvt=dolly+databricks&FORM=EWRE
