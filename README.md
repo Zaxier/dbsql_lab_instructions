@@ -42,7 +42,7 @@ The tables and their relationships in the TPC-H dataset are as follows:
 ## Instructions
 
 ### Exercise 0: Understand the datasets 
-1. Either read the above descriptions or use chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
+1. Either read the above descriptions or use chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is an important and useful data set and benchmark and why it is used in industry.
 2. Ask chatGPT about the TPC-H dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
 
 ### Exercise 1: DBSQL Navigation.
@@ -59,13 +59,13 @@ The tables and their relationships in the TPC-H dataset are as follows:
     - Create the schema in the hive_metastore catalog [docs link](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-schema.html)
     - Run a CTAS (`CREATE TABLE AS SELECT`) query to create a new table in your new schema. [example](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-table-using.html#:~:text=%2D%2D%20Use%20data%20from%20another%20table%0A%3E%20CREATE%20TABLE%20student_copy%20AS%20SELECT%20*%20FROM%20student%3B)
     - Create a view in your new schema. [example](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-view.html)
-7. Write a more complex query with the help of code completion. Answer the following questions using SQL and the `nyctaxi.trips` table:
+7. Write more interesting queries, such as a basic `where` clause or a `sum() ... group by ...`. Notice the intellisense within the Editor. Answer the following questions using SQL and the `nyctaxi.trips` table:
     - Find the average fare_amount percentage for each day of the week:
     - Find the number of trips and average trip distance for each hour of the day
 
-You can use chatGPT if you like! It know about the NYC taxi dataset. If you tell it your table name and column names it might help too.
+You can use chatGPT if you like! It knows about the NYC taxi dataset. If you tell it your table name and column names it might help too.
 
-For example
+Example query 
 ```sql
 SELECT
   DAYOFWEEK(tpep_pickup_datetime) AS day_of_week,
@@ -114,7 +114,7 @@ GROUP BY
 1. Create a basic csv file in a text editor such as the following:
 
 ```
-id,name,age, dob
+id,name,age,dob
 1, John,30,1990-01-30
 2, Mary,25,1995-02-15
 3, Peter,40,1980-03-02
