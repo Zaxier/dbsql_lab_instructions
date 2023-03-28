@@ -39,6 +39,8 @@ The tables and their relationships in the TPC-H dataset are as follows:
 - `part`: Contains information about parts, including their name, brand, size, and supplier ID.
 - `nation`: Contains information about countries, including the country name, region, and population.
 
+To find out more about the TPC-H benchmark, visit the official website: http://www.tpc.org/tpch/ and checkout this pdf https://www.tpc.org/TPC_Documents_Current_Versions/pdf/TPC-H_v3.0.1.pdf
+
 ## Lab Instructions
 
 ### Exercise 0: Understand the datasets 
