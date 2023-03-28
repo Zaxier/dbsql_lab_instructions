@@ -32,17 +32,17 @@ The TPC-H dataset is significant in the database industry as it provides a stand
 The TPC-H dataset includes a schema and set of tables that represent various aspects of a business, including customers, orders, line items, suppliers, parts, and nations. The data model is a star schema, where the fact table (lineitem) is connected to several dimension tables (customer, orders, supplier, part, and nation) through foreign keys.
 
 The tables and their relationships in the TPC-H dataset are as follows:
-- customer: Contains information about customers, including their name, address, phone number, and account balance.
-- orders: Contains information about orders, including the order date, customer ID, order priority, and ship date.
-- lineitem: Contains information about individual items in each order, including the quantity, price, and discount for each item.
-- supplier: Contains information about suppliers, including their name, address, and phone number.
-- part: Contains information about parts, including their name, brand, size, and supplier ID.
-- nation: Contains information about countries, including the country name, region, and population.
+- `customer`: Contains information about customers, including their name, address, phone number, and account balance.
+- `orders`: Contains information about orders, including the order date, customer ID, order priority, and ship date.
+- `lineitem`: Contains information about individual items in each order, including the quantity, price, and discount for each item.
+- `supplier`: Contains information about suppliers, including their name, address, and phone number.
+- `part`: Contains information about parts, including their name, brand, size, and supplier ID.
+- `nation`: Contains information about countries, including the country name, region, and population.
 
 ## Instructions
 
-### Exercise 0: Understand the datasets
-1. Go to chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
+### Exercise 0: Understand the datasets 
+1. Either read the above descriptions or use chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
 2. Ask chatGPT about the TPC-H dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
 
 ### Exercise 1: DBSQL Navigation.
@@ -59,7 +59,7 @@ The tables and their relationships in the TPC-H dataset are as follows:
     - Create the schema in the hive_metastore catalog [docs link](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-schema.html)
     - Run a CTAS (`CREATE TABLE AS SELECT`) query to create a new table in your new schema. [example](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-table-using.html#:~:text=%2D%2D%20Use%20data%20from%20another%20table%0A%3E%20CREATE%20TABLE%20student_copy%20AS%20SELECT%20*%20FROM%20student%3B)
     - Create a view in your new schema. [example](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-view.html)
-6. Write a more complex query with the help of code completion. Answer the following questions using SQL and the `nyctaxi.trips` table:
+7. Write a more complex query with the help of code completion. Answer the following questions using SQL and the `nyctaxi.trips` table:
     - Find the average fare_amount percentage for each day of the week:
     - Find the number of trips and average trip distance for each hour of the day
 
@@ -76,7 +76,7 @@ FROM
 GROUP BY
   day_of_week;
 ```
-7. Name, save and share a query
+8. Name, save and share a query
     - Name the query (in the SQL Editor UI)
     - Save the query (in the SQL Editor UI)
     - Share the query (in the SQL Editor UI) with another user or all users.
