@@ -12,7 +12,7 @@
 - [Link to PDF of slides](https://drive.google.com/file/d/1GAIL7qCOSTAZdytKVn0CoPwSlat6BjVx/view?usp=share_link)
 - [LeapChat Room]()
 - [Repo Link](https://github.com/Zaxier/dbsql_lab_instructions)
-- *My LeapChat screen name*:   `XavierTheArbiterOfTruth`
+- *My chatroom screen name*:   `XavierTheArbiterOfTruth`
 - *My email address*: `xavier@databricks.com`
 
 ## Lab Context: What are we going to do?
