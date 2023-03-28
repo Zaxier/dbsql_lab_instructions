@@ -39,7 +39,7 @@ The tables and their relationships in the TPC-H dataset are as follows:
 - `part`: Contains information about parts, including their name, brand, size, and supplier ID.
 - `nation`: Contains information about countries, including the country name, region, and population.
 
-## Instructions
+## Lab Instructions
 
 ### Exercise 0: Understand the datasets 
 1. Either read the above descriptions or use chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is an important and useful data set and benchmark and why it is used in industry.
