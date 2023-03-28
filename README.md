@@ -11,6 +11,7 @@
 - [Lab Workspace URL](https://dbc-7799459f-0ccf.cloud.databricks.com/)
 - [Link to PDF of slides]()
 - [LeapChat Room]()
+- [Repo Link](https://github.com/Zaxier/dbsql_lab_instructions)
 - *My LeapChat screen name*:   `XavierTheArbiterOfTruth`
 - *My email address*: `xavier@databricks.com`
 
@@ -21,21 +22,23 @@
 - In doing that we will get comfortable navigating the Databricks SQL UI and the capabilities of the platform.
 
 ## Dataset description
-- NYC Taxi Trips
-    - pickup/dropoff date times
-    - pickup/dropoff locations
-    - trip distance
-    - fare amount
-    - tip amount
 
-    - 1.1 billion records
-    - 2013-2015
-    - 1.5 GB
+### NYC Taxi Trips
+The NYC Taxi data set is a popular data set containing trip records from taxi rides in New York City. It includes information such as the pickup and drop-off locations, trip distances, fare amounts, payment types, and more. The data set has been used for a variety of purposes, including transportation planning, predictive modeling, and data visualization. The dataset is a single table.
 
-- Retail Revenue and Supply Chain data
-    - 1.2 billion records
-    - 2000-2002
-    - 1.5 GB    
+### TPC-H (Retail Revenue and Supply Chain data)
+The TPC-H dataset is significant in the database industry as it provides a standardized benchmark for evaluating the performance of decision support systems and analytical database systems. The benchmark consists of a set of complex SQL queries that simulate real-world business scenarios, and is designed to test the performance of systems that handle large volumes of data and complex queries.
+
+The TPC-H dataset includes a schema and set of tables that represent various aspects of a business, including customers, orders, line items, suppliers, parts, and nations. The data model is a star schema, where the fact table (lineitem) is connected to several dimension tables (customer, orders, supplier, part, and nation) through foreign keys.
+
+The tables and their relationships in the TPC-H dataset are as follows:
+
+customer: Contains information about customers, including their name, address, phone number, and account balance.
+orders: Contains information about orders, including the order date, customer ID, order priority, and ship date.
+lineitem: Contains information about individual items in each order, including the quantity, price, and discount for each item.
+supplier: Contains information about suppliers, including their name, address, and phone number.
+part: Contains information about parts, including their name, brand, size, and supplier ID.
+nation: Contains information about countries, including the country name, region, and population.
 
 ## Instructions
 
