@@ -32,13 +32,12 @@ The TPC-H dataset is significant in the database industry as it provides a stand
 The TPC-H dataset includes a schema and set of tables that represent various aspects of a business, including customers, orders, line items, suppliers, parts, and nations. The data model is a star schema, where the fact table (lineitem) is connected to several dimension tables (customer, orders, supplier, part, and nation) through foreign keys.
 
 The tables and their relationships in the TPC-H dataset are as follows:
-
-customer: Contains information about customers, including their name, address, phone number, and account balance.
-orders: Contains information about orders, including the order date, customer ID, order priority, and ship date.
-lineitem: Contains information about individual items in each order, including the quantity, price, and discount for each item.
-supplier: Contains information about suppliers, including their name, address, and phone number.
-part: Contains information about parts, including their name, brand, size, and supplier ID.
-nation: Contains information about countries, including the country name, region, and population.
+- customer: Contains information about customers, including their name, address, phone number, and account balance.
+- orders: Contains information about orders, including the order date, customer ID, order priority, and ship date.
+- lineitem: Contains information about individual items in each order, including the quantity, price, and discount for each item.
+- supplier: Contains information about suppliers, including their name, address, and phone number.
+- part: Contains information about parts, including their name, brand, size, and supplier ID.
+- nation: Contains information about countries, including the country name, region, and population.
 
 ## Instructions
 
