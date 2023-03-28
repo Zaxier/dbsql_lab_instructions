@@ -49,7 +49,7 @@ To find out more about the TPC-H benchmark, visit the official website: http://w
 1. Either read the above descriptions or use chatGPT (https://chat.openai.com/chat) and ask about the NYC Taxi dataset. Ask chatGPT why it is an important and useful data set and benchmark and why it is used in industry.
 2. Ask chatGPT about the TPC-H dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
 
-### Exercise 1: DBSQL Navigation.
+### Exercise 1: DBSQL Navigation. (10 mins)
 1. Navigate to SQL Persona (top-left)
 2. Click on "Data" in the LHS panel. Navigate to the `samples` catalog.
 3. Explore the two schemas [`nyctaxi`, `tpch`] in the Data Explorer
@@ -87,7 +87,7 @@ GROUP BY
     - Locate the saved query in your "Workspace" browser and the "Queries" browser (both available on the LHS panel).
     - Organise the query into a folder
 
-### Exercise 2: Dashboards ([see docs](https://docs.databricks.com/sql/user/dashboards/index.html))
+### Exercise 2: Dashboards ([see docs](https://docs.databricks.com/sql/user/dashboards/index.html)) (10-15 mins)
 1. Navigate to SQL Persona (top-left)
 2. On the DBSQL Home Page, under "Sample dashboards", click "Visit gallery".
 
@@ -114,7 +114,7 @@ GROUP BY
     - The results table and the visualisation will be visible in the bottom panel. Choose the visualisation and edit it. Within the visualisation editor, change the Colors. Choose 'Max color' to be a high contrast red. This makes the visualisation easier to read.
 6. Save the visualisation then navigate back to the dashboard and refresh the browser window. The visualisation should now be updated with the higher contrast red for the USA, UK, Saudi Arabia etc who have the highest revenue.
 
-### Exercise 3: Ingest a flat file
+### Exercise 3: Ingest a flat file (5-10 mins)
 1. Create a basic csv file in a text editor such as the following:
 
 ```
@@ -136,7 +136,7 @@ id,name,age,dob
     - Edit the owner of the table, make it the admin user.
     - Explore the history of the table 
 
-### Exercise 4: More SQL Analytics
+### Exercise 4: More SQL Analytics (10-15 mins)
 In this exercise we will write SQL to analyse the TPC-H dataset, and then add visualisations to the existing dashboard. Because there are so many possibile ways to query the TPC-H dataset, we will use chatGPT to help us generate some SQL queries.
 
 1. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset. Example prompt *"What are some questions I can answer using the TPC-H dataset?"*
@@ -152,18 +152,18 @@ In this exercise we will write SQL to analyse the TPC-H dataset, and then add vi
 9. Explore other users' dashboards.
 10. Volunteers to talk through their visuals!
 
-### Exercise 5: Infrastructure Monitoring
+### Exercise 5: Infrastructure Monitoring (<5 mins)
 1. Within DBSQL, click on "SQL Warehouses" on the LHS panel.
 2. Choose the running serverless warehouse.
 3. Click on monitoring and inspect the metrics.
 
-### Exercise 6: Spam the chatroom with
+### Exercise 6: Spam the chatroom with (1-2 mins)
 1. Rating out of 10 for the session
 2. What did you like?
 3. What could be improved?
 4. Memes and general spamming encouraged.
 
-### Exercise 7: Extras
+### Exercise 7: Extras (5-10 mins)
 5. Check out the news about Dolly, Databricks' open-source large language model.
     - https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html
     - https://www.bing.com/news/search?q=Dolly+Databricks&qpvt=dolly+databricks&FORM=EWRE
