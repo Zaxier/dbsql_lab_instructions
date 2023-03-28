@@ -41,6 +41,8 @@ The tables and their relationships in the TPC-H dataset are as follows:
 
 To find out more about the TPC-H benchmark, visit the official website: http://www.tpc.org/tpch/ and checkout this pdf https://www.tpc.org/TPC_Documents_Current_Versions/pdf/TPC-H_v3.0.1.pdf
 
+### Link to TPC-H data model [here](https://help-static-aliyun-doc.aliyuncs.com/assets/img/en-US/0243654161/p244022.png)
+
 ## Lab Instructions
 
 ### Exercise 0: Understand the datasets 
