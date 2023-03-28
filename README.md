@@ -161,7 +161,7 @@ In this exercise we will write SQL to analyse the TPC-H dataset, and then add vi
 1. Rating out of 10 for the session
 2. What did you like?
 3. What could be improved?
-4. Memes and spam encouraged.
+4. Emojis and spam encouraged.
 
 ### Exercise 7: Extras (5-10 mins)
 5. Check out the news about Dolly, Databricks' open-source large language model.
