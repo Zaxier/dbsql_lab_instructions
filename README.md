@@ -9,7 +9,7 @@
 ### Hail Mary Assets
 - [Lab Env Registration Link](https://labs.databricks.com/#/odl/b1c44777-dce6-4a70-a7c4-cd5766ea2a02)
 - [Lab Workspace URL](https://dbc-7799459f-0ccf.cloud.databricks.com/)
-- [Link to PDF of slides]()
+- [Link to PDF of slides](https://drive.google.com/file/d/1GAIL7qCOSTAZdytKVn0CoPwSlat6BjVx/view?usp=share_link)
 - [LeapChat Room]()
 - [Repo Link](https://github.com/Zaxier/dbsql_lab_instructions)
 - *My LeapChat screen name*:   `XavierTheArbiterOfTruth`
