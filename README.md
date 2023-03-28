@@ -80,9 +80,10 @@ GROUP BY
     - Name the query (in the SQL Editor UI)
     - Save the query (in the SQL Editor UI)
     - Share the query (in the SQL Editor UI) with another user or all users.
-    - Locate the saved query in your "Workspace" browser and the "Queries" browser (both available on the LHS panel)
+    - Locate the saved query in your "Workspace" browser and the "Queries" browser (both available on the LHS panel).
+    - Organise the query into a folder
 
-### Exercise 2: Dashboards ([docs])
+### Exercise 2: Dashboards ([docs](https://docs.databricks.com/sql/user/dashboards/index.html))
 1. Navigate to SQL Persona (top-left)
 2. On the DBSQL Home Page, under "Sample dashboards", click "Visit gallery".
 
