@@ -135,8 +135,8 @@ id,name,age,dob
 ### Exercise 4: More SQL Analytics
 In this exercise we will write SQL to analyse the TPC-H dataset, and then add visualisations to the existing dashboard. Because there are so many possibile ways to query the TPC-H dataset, we will use chatGPT to help us generate some SQL queries.
 
-1. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset.
-2. Ask chatGPT to provide the SQL to answer these questions for you mentioning the TPC-H dataset in your prompt.
+1. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset. Example prompt *"What are some questions I can answer using the TPC-H dataset?"*
+2. Ask chatGPT to provide the SQL to answer these questions for you mentioning the TPC-H dataset in your prompt. Example prompt *"What is the SQL code to answer the questions you provided in your previous response?"*
 3. Copy the SQL into the SQL Editor and run the query. *Note*, you may have to update syntactical elements of the SQL to make it work. GOOD NEWS: We're creating a dedicated chatbot for querying tables within the lakehouse that will produce the correct SQL for you.
 6. Choose 3-4 queries and produce 3-4 visualisations. 
 7. Save and name the queries.
@@ -145,7 +145,8 @@ In this exercise we will write SQL to analyse the TPC-H dataset, and then add vi
     - Create a new dashboard and provide a name.
     - Click "Add" and choose the visualisations you want to add. They will be searchable by the query names first and visualisation name second.
     - When you're done, click "Done editing" and then click "Share" and share the dashboard with all users of the workspace.
-8. Volunteers to talk through their visuals!
+9. Explore other users' dashboards.
+10. Volunteers to talk through their visuals!
 
 ### Exercise 5: Infrastructure Monitoring
 1. Within DBSQL, click on "SQL Warehouses" on the LHS panel.
@@ -165,3 +166,5 @@ In this exercise we will write SQL to analyse the TPC-H dataset, and then add vi
 6. Check out the Databricks blog:
     - https://www.databricks.com/blog
     - Navigate using the sub-blogs on the LHS (check out your industry, or the one you're interested in).
+
+### Q&A if needed.
