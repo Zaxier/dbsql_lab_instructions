@@ -83,7 +83,7 @@ GROUP BY
     - Locate the saved query in your "Workspace" browser and the "Queries" browser (both available on the LHS panel).
     - Organise the query into a folder
 
-### Exercise 2: Dashboards ([docs](https://docs.databricks.com/sql/user/dashboards/index.html))
+### Exercise 2: Dashboards ([see docs](https://docs.databricks.com/sql/user/dashboards/index.html))
 1. Navigate to SQL Persona (top-left)
 2. On the DBSQL Home Page, under "Sample dashboards", click "Visit gallery".
 
@@ -92,11 +92,11 @@ GROUP BY
 4. Dashboard should open automatically (if not navigate to Dashboard from LHS Panel)
 6. Use the widgets to filter the data.
     - How many trips (pickups) were there from zip code 11222 in January 2016
-7. Choose a visualisation, enlarge it and inspect the data.
+7. Choose a visualisation, enlarge it (bottom right) and inspect the viz more closely. Use the zoom in out features (double click to return to default view).
 8. Choose a visualisation, at the top right of the visualisation, click on the "..." and choose "View query"
-9. Inspect the query, run it, 
-10. Notice the visualisations tabbed under the editor next to the table results. 
-11. Edit the query or the visualisation and notice the results update.
+9. Inspect the query, run it.
+10. Notice the visualisation tab under the editor, next to the table results. 
+11. Experiment with the query or the visualisation and notice the results update.
 
 **Explore the Retail Supply Chain Dashboard**
 1. Import the Retail Supply Chain dashboard on the DBSQL Home page.
@@ -113,18 +113,17 @@ GROUP BY
 ### Exercise 3: SQL Analytics
 In this exercise we will write SQL to analyse the TPC-H dataset, and then add visualisations to the existing dashboard.
 
-1. Use chatGPT and ask about the TPC-H dataset. Ask chatGPT why it is a an important or useful data set or benchmark and why it is used in industry.
-2. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset.
-3. Ask chatGPT to provide the SQL to answer these questions for you mentioning the TPC-H dataset in your prompt.
-4. Copy the SQL into the SQL Editor and run the query. Note, you may have to update syntactical elements of the SQL to make it work in DBSQL. GOOD NEWS: We're creating a dedicated chatbot for querying tables within the lakehouse that will produce the correct SQL for you.
-5. Choose 3-4 queries and produce 3-4 visualisations. 
-6. Save and name the queries.
-6. Create a dashboard and add the visualisations to it.
+1. Ask chatGPT to suggest some questions that can be answered using the TPC-H dataset.
+2. Ask chatGPT to provide the SQL to answer these questions for you mentioning the TPC-H dataset in your prompt.
+3. Copy the SQL into the SQL Editor and run the query. *Note*, you may have to update syntactical elements of the SQL to make it work. GOOD NEWS: We're creating a dedicated chatbot for querying tables within the lakehouse that will produce the correct SQL for you.
+6. Choose 3-4 queries and produce 3-4 visualisations. 
+7. Save and name the queries.
+8. Create a dashboard and add the visualisations to it.
     - Navigate to the "Dashboards" browser (available on the LHS panel)
     - Create a new dashboard and provide a name.
     - Click "Add" and choose the visualisations you want to add. They will be searchable by the query names first and visualisation name second.
     - When you're done, click "Done editing" and then click "Share" and share the dashboard with all users of the workspace.
-7. Volunteers to talk through their visuals!
+8. Volunteers to talk through their visuals!
 
 ### Exercise 4: Infrastructure Monitoring
 1. Within DBSQL, click on "SQL Warehouses" on the LHS panel.
